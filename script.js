@@ -8,16 +8,16 @@ document
 
     // Respostas corretas
     const correctAnswers = {
-      q1: "Paris",
-      q2: "Marte",
-      q3: "Amazônia",
-      q4: "Leonardo da Vinci",
-      q5: "Pacífico",
-      q6: "8",
-      q7: "Ouro",
-      q8: "Baleia Azul",
-      q9: "Crosta",
-      q10: "Nitrogênio",
+      q1: "Um serviço de armazenamento na nuvem",
+      q2: "Guardar arquivos na nuvem",
+      q3: "Permite enviar um arquivo para dentro do Google Drive",
+      q4: "Baixa um arquivo que está no Google Drive",
+      q5: "Ctrl + X",
+      q6: "Docs, Planilhas e Apresentações",
+      q7: "15 GB's",
+      q8: "Ele é movido para a lixeira",
+      q9: "Ter uma conta do Google",
+      q10: "Marcando-os como favoritos",
     };
 
     // Coleta as respostas das questões
