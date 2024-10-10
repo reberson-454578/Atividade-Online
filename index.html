@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="lista-de-controle.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("8j2J-jmH9k-Ql-2qT");
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Atividade de Múltipla Escolha</h1>
+
+      <form id="quiz-form">
+        <label for="name">Nome do Aluno:</label>
+        <input type="text" id="name" name="name" autocomplete="name" required />
+
+        <!-- Questão 1 -->
+        <div class="question" id="q1">
+          <h2>1. Qual é a capital da França?</h2>
+          <label
+            ><input type="radio" name="q1" value="Londres" /> A) Londres</label
+          >
+          <label><input type="radio" name="q1" value="Paris" /> B) Paris</label>
+          <label
+            ><input type="radio" name="q1" value="Madrid" /> C) Madrid</label
+          >
+          <label
+            ><input type="radio" name="q1" value="Berlim" /> D) Berlim</label
+          >
+        </div>
+
+        <!-- Questão 2 -->
+        <div class="question" id="q2">
+          <h2>2. Qual planeta é conhecido como o Planeta Vermelho?</h2>
+          <label><input type="radio" name="q2" value="Terra" /> A) Terra</label>
+          <label
+            ><input type="radio" name="q2" value="Júpiter" /> B) Júpiter</label
+          >
+          <label><input type="radio" name="q2" value="Marte" /> C) Marte</label>
+          <label
+            ><input type="radio" name="q2" value="Saturno" /> D) Saturno</label
+          >
+        </div>
+
+        <!-- Questão 3 -->
+        <div class="question" id="q3">
+          <h2>3. Qual é a maior floresta tropical do mundo?</h2>
+          <label
+            ><input type="radio" name="q3" value="Amazônia" /> A)
+            Amazônia</label
+          >
+          <label
+            ><input type="radio" name="q3" value="Sibéria" /> B) Sibéria</label
+          >
+          <label><input type="radio" name="q3" value="Congo" /> C) Congo</label>
+          <label
+            ><input type="radio" name="q3" value="Daintree" /> D)
+            Daintree</label
+          >
+        </div>
+
+        <!-- Questão 4 -->
+        <div class="question" id="q4">
+          <h2>4. Quem pintou a Mona Lisa?</h2>
+          <label
+            ><input type="radio" name="q4" value="Van Gogh" /> A) Van
+            Gogh</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Leonardo da Vinci" /> B)
+            Leonardo da Vinci</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Picasso" /> C) Picasso</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Michelangelo" /> D)
+            Michelangelo</label
+          >
+        </div>
+
+        <!-- Questão 5 -->
+        <div class="question" id="q5">
+          <h2>5. Qual é o maior oceano da Terra?</h2>
+          <label
+            ><input type="radio" name="q5" value="Atlântico" /> A)
+            Atlântico</label
+          >
+          <label
+            ><input type="radio" name="q5" value="Pacífico" /> B)
+            Pacífico</label
+          >
+          <label
+            ><input type="radio" name="q5" value="Índico" /> C) Índico</label
+          >
+          <label
+            ><input type="radio" name="q5" value="Ártico" /> D) Ártico</label
+          >
+        </div>
+
+        <!-- Questão 6 -->
+        <div class="question" id="q6">
+          <h2>6. Quantos planetas existem no Sistema Solar?</h2>
+          <label><input type="radio" name="q6" value="7" /> A) 7</label>
+          <label><input type="radio" name="q6" value="8" /> B) 8</label>
+          <label><input type="radio" name="q6" value="9" /> C) 9</label>
+          <label><input type="radio" name="q6" value="10" /> D) 10</label>
+        </div>
+
+        <!-- Questão 7 -->
+        <div class="question" id="q7">
+          <h2>7. Qual metal é conhecido por seu símbolo químico 'Au'?</h2>
+          <label><input type="radio" name="q7" value="Prata" /> A) Prata</label>
+          <label><input type="radio" name="q7" value="Ouro" /> B) Ouro</label>
+          <label
+            ><input type="radio" name="q7" value="Alumínio" /> C)
+            Alumínio</label
+          >
+          <label><input type="radio" name="q7" value="Cobre" /> D) Cobre</label>
+        </div>
+
+        <!-- Questão 8 -->
+        <div class="question" id="q8">
+          <h2>8. Qual é o maior mamífero do mundo?</h2>
+          <label
+            ><input type="radio" name="q8" value="Elefante" /> A)
+            Elefante</label
+          >
+          <label
+            ><input type="radio" name="q8" value="Baleia Azul" /> B) Baleia
+            Azul</label
+          >
+          <label
+            ><input type="radio" name="q8" value="Hipopótamo" /> C)
+            Hipopótamo</label
+          >
+          <label
+            ><input type="radio" name="q8" value="Rinoceronte" /> D)
+            Rinoceronte</label
+          >
+        </div>
+
+        <!-- Questão 9 -->
+        <div class="question" id="q9">
+          <h2>9. Qual é a camada mais externa da Terra?</h2>
+          <label><input type="radio" name="q9" value="Manto" /> A) Manto</label>
+          <label
+            ><input type="radio" name="q9" value="Núcleo" /> B) Núcleo</label
+          >
+          <label
+            ><input type="radio" name="q9" value="Crosta" /> C) Crosta</label
+          >
+          <label
+            ><input type="radio" name="q9" value="Litosfera" /> D)
+            Litosfera</label
+          >
+        </div>
+
+        <!-- Questão 10 -->
+        <div class="question" id="q10">
+          <h2>10. Qual é o gás mais abundante na atmosfera da Terra?</h2>
+          <label
+            ><input type="radio" name="q10" value="Oxigênio" /> A)
+            Oxigênio</label
+          >
+          <label
+            ><input type="radio" name="q10" value="Nitrogênio" /> B)
+            Nitrogênio</label
+          >
+          <label
+            ><input type="radio" name="q10" value="Dióxido de Carbono" /> C)
+            Dióxido de Carbono</label
+          >
+          <label
+            ><input type="radio" name="q10" value="Hélio" /> D) Hélio</label
+          >
+        </div>
+
+        <button type="submit" class="submit-btn">Enviar Respostas</button>
+      </form>
+    </div>
+
+    <!-- Modal de Confirmação -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Atividade Enviada</h2>
+        <p>Suas respostas foram enviadas com sucesso!</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
